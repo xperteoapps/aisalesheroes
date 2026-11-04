@@ -33,7 +33,7 @@ Nowa lekcja = folder `src/lessons/L{m}-{n}/` z plikiem JSON i `index.js` eksport
 
 Media nie trafiają do GitHuba. Odtwarzacz bierze je z adresu `VITE_MEDIA_BASE` (patrz `.env.example`):
 
-- lokalnie: folder `public/media/` (ignorowany przez git), np. `public/media/audio/L1-2/L1-2_B01.mp3`
-- docelowo: Supabase Storage, te same ścieżki: `audio/L1-2/L1-2_B01.mp3`, `video/L1-2/L1-2_B04_W1.mp4`, `files/L1-2/L1-2_<nazwa>.pdf`
+- offline: `VITE_MEDIA_BASE=/media` w `.env` i folder `public/media/` (ignorowany przez git), np. `public/media/audio/L1-2/L1-2_B01.mp3`
+- domyślnie: Supabase Storage, projekt `ai-sales-hero`, bucket `media` (publiczny do czasu logowania), te same ścieżki: `audio/L1-2/L1-2_B01.mp3`, `video/L1-2/L1-2_B04_W1.mp4`, `files/L1-2/L1-2_<nazwa>.pdf`
 
 Blok bez pliku MP3 jedzie na szacowanym tempie lektora.

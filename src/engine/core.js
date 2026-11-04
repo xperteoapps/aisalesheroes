@@ -6,7 +6,8 @@ export const html = htm.bind(React.createElement);
 
 export const PAUSE_W = 11;   // pauza [pause] liczona jak 11 znaków
 export const CPS = 14.5;     // tempo lektora (znaki/s), gdy nie ma jeszcze MP3
-export const MEDIA_BASE = (import.meta.env.VITE_MEDIA_BASE || "/media").replace(/\/$/, "");
+/* Media z Supabase Storage (bucket „media”, projekt ai-sales-hero). Lokalnie można nadpisać: VITE_MEDIA_BASE=/media */
+export const MEDIA_BASE = (import.meta.env.VITE_MEDIA_BASE || "https://pvdjwmzcvgqgyiwaddbb.supabase.co/storage/v1/object/public/media").replace(/\/$/, "");
 
 /* Tekst lektora ma zapis fonetyczny dla ElevenLabs; na ekranie (napisy) pokazujemy zapis normalny. */
 const SAY_TO_SCREEN = [[/Czat-dżi-pi-ti/g, "ChatGPT"], [/n-eight-n/g, "n8n"], [/a-pe-i/g, "API"], [/bi-tu-bi/g, "B2B"]];
