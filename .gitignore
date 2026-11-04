@@ -1,0 +1,8 @@
+node_modules/
+dist/
+# Media (MP3, MP4, PDF) nie trafiają do repo — Supabase Storage. Lokalnie: public/media/
+public/media/
+.env
+.env.*
+!.env.example
+.DS_Store

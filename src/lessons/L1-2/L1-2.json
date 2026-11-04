@@ -1,0 +1,85 @@
+{
+  "id": "L1-2",
+  "num": "1.2",
+  "module": "Moduł 1 · Warsztat AI handlowca",
+  "moduleShort": "Moduł 1",
+  "title": "Zanim wkleisz: dane, prywatność i trenowanie modeli",
+  "short": "Zanim wkleisz",
+  "next": { "num": "1.3", "title": "Claude vs ChatGPT: co do czego" },
+  "elevenlabsFlow": "L1-2 — Zanim wkleisz (lektor)",
+  "skip": { "b5": "Nie używam ChatGPT, pomiń →" },
+  "blocks": [
+    { "id": "b1", "n": 1, "type": "Slajd z lektorem", "ic": "S", "title": "Mail od klienta i trzy pytania",
+      "text": "Masz w skrzynce maila od klienta. Nazwisko, telefon, budżet. [pause] Chcesz wkleić go do sztucznej inteligencji i poprosić o pomysł na odpowiedź. [pause] I w tym momencie pojawia się pytanie, które zatrzymuje większość handlowców: a co się z tym dzieje dalej? [pause] W tej lekcji odpowiadasz sobie na to raz. Wyłączasz trenowanie na swoim koncie, poznajesz trzy tryby pracy i dostajesz checklistę, którą będziesz stosować, zanim cokolwiek wkleisz." },
+    { "id": "b2", "n": 2, "type": "Zadanie live", "ic": "✎", "title": "Twój punkt startu", "task": true,
+      "text": "Zanim zobaczysz, jak jest naprawdę, odpowiedz na dwa pytania. Nie ma złych odpowiedzi, chodzi o Twój punkt startu. [pause] Zaznacz i przejdź dalej." },
+    { "id": "b3", "n": 3, "type": "Slajd z lektorem", "ic": "S", "title": "Trzy fakty o trenowaniu",
+      "text": "Trzy rzeczy, które musisz wiedzieć. [pause] Po pierwsze: na zwykłym koncie, darmowym albo płatnym, zarówno w Claude, jak i w Czat-dżi-pi-ti, zgoda na ulepszanie modelu jest domyślnie włączona. To znaczy, że Twoje rozmowy mogą trafić do trenowania przyszłych wersji. [pause] Po drugie: wyłączasz to jednym przełącznikiem w ustawieniach prywatności. Za chwilę zrobisz to na swoim koncie. [pause] Po trzecie: kiedy w kolejnych modułach podłączysz sztuczną inteligencję przez klucz a-pe-i, na przykład w n-eight-n, obowiązują warunki komercyjne, w których dostawca nie trenuje na Twoich danych. [pause] Jedno zastrzeżenie: wyłączone trenowanie nie zmienia tego, że treść i tak idzie na serwer dostawcy. Dlatego druga część lekcji jest o tym, co w ogóle wkleić." },
+    { "id": "b4", "n": 4, "type": "Wideo", "ic": "▶", "title": "Claude: wyłącz trenowanie", "media": "W1",
+      "text": "Zobacz, jak to wygląda w Claude. [pause] Klikasz swoje inicjały w lewym dolnym rogu, potem Ustawienia. [pause] Wchodzisz w zakładkę Prywatność. [pause] Ten przełącznik, podpisany po angielsku „pomóż ulepszać Claude”, jest teraz włączony. [pause] Przełączasz go i od tej chwili nowe rozmowy nie trafiają do trenowania. [pause] I jeszcze jedno miejsce: przy nowym czacie masz tryb incognito. Taka rozmowa nie zapisuje się w historii i nie jest używana do ulepszania modelu, nawet gdybyś przełącznik zostawił włączony. To tryb na sprawy jednorazowe." },
+    { "id": "b5", "n": 5, "type": "Wideo", "ic": "▶", "title": "ChatGPT: to samo (opcjonalnie)", "media": "W2",
+      "text": "Jeśli używasz też Czat-dżi-pi-ti, ten sam krok robisz tam. [pause] Ikona profilu, Settings, zakładka Data controls. [pause] Przełącznik „ulepszaj model dla wszystkich” wyłączasz tutaj. Ustawienie obowiązuje na całym koncie, na laptopie i w telefonie. [pause] Odpowiednikiem trybu incognito jest czat tymczasowy: nie trafia do historii, nie tworzy wspomnień i nie jest używany do trenowania. [pause] Jeżeli nie masz konta Czat-dżi-pi-ti, po prostu przejdź dalej." },
+    { "id": "b6", "n": 6, "type": "Zadanie live", "ic": "✎", "title": "Wyłącz trenowanie u siebie", "task": true,
+      "text": "Teraz Ty. [pause] Otwórz swoje ustawienia w nowej karcie i przełącz trenowanie. Zajmie Ci to minutę. [pause] Jeśli chcesz, wgraj zrzut ekranu z wyłączonym przełącznikiem — zostanie w Twoim profilu jako dowód, że zrobiłeś to na starcie. [pause] Odhacz i wracaj." },
+    { "id": "b7", "n": 7, "type": "Mikroquiz", "ic": "?", "title": "Który tryb pracy?", "task": true, "quiz": "micro",
+      "text": "Dwa krótkie pytania. [pause] Wybierz odpowiedź i przeczytaj wyjaśnienie, nawet jeśli trafisz." },
+    { "id": "b8", "n": 8, "type": "Slajd z lektorem", "ic": "S", "title": "Co zostaje, co zamieniasz",
+      "text": "Teraz druga ochrona. Trenowanie jest wyłączone, ale treść i tak wychodzi z Twojego komputera. [pause] Ten mail przyszedł do Nowak Opakowania. Zobacz, co się z nim dzieje, zanim trafi do sztucznej inteligencji. [pause] Nazwisko staje się znacznikiem „osoba”. [pause] Nazwa firmy klienta — „klient”. [pause] Telefon i adres mailowy — „telefon” i „mail”. [pause] Budżet — „kwota”. [pause] A to, czego klient potrzebuje, zostaje bez zmian, bo bez tego nie ma dobrej odpowiedzi. [pause] Zapamiętaj trzy strefy: to, co zostaje, to, co zamieniasz, i to, czego nie wklejasz nigdy." },
+    { "id": "b9", "n": 9, "type": "Zadanie live", "ic": "✎", "title": "Twój mail ze znacznikami", "task": true,
+      "text": "Twoja kolej. [pause] Otwórz prawdziwego maila od klienta, może być ten z dzisiaj. [pause] Jeśli nie masz żadnego pod ręką, kliknij „Użyj przykładowego maila” i pracuj na nim. [pause] W osobnym oknie zamień nazwisko, firmę, kontakty i kwoty na znaczniki, tak jak przed chwilą. [pause] Wklej tutaj tylko wersję ze znacznikami. Sprawdzenie odbywa się w Twojej przeglądarce i nic nie wychodzi na zewnątrz. [pause] Jeśli zobaczysz żółty komunikat, popraw ten fragment i wklej jeszcze raz." },
+    { "id": "b10", "n": 10, "type": "Slajd z lektorem", "ic": "S", "title": "Cztery pytania przed wklejeniem", "hold": 10,
+      "text": "Zanim wkleisz, cztery pytania. [pause] Przeczytaj je raz i wracaj do nich, aż staną się odruchem." },
+    { "id": "b11", "n": 11, "type": "Quiz końcowy", "ic": "?", "title": "Sprawdź się", "task": true, "quiz": "final",
+      "text": "Cztery pytania z sytuacji, które zdarzą Ci się w tym tygodniu. [pause] Przy każdej odpowiedzi zaznacz, czy jesteś pewny, czy zgadujesz." },
+    { "id": "b12", "n": 12, "type": "Plan i pobranie", "ic": "↓", "title": "Plan na tydzień i pliki",
+      "text": "Ostatnia rzecz. [pause] Napisz jedno zdanie: gdzie w tym tygodniu użyjesz tej checklisty. Może to być pierwsza odpowiedź na zapytanie, streszczenie umowy, cokolwiek, co i tak masz do zrobienia. [pause] Pobierz checklistę i instrukcję ustawień. Checklista jest na jedną stronę, wydrukuj ją i połóż przy klawiaturze. [pause] W następnej lekcji porównasz Claude i Czat-dżi-pi-ti: co do czego, i dlaczego w tym kursie budujesz warsztat w jednym z nich." }
+  ],
+  "demoMail": { "to": "biuro@nowak-opakowania.pl", "subject": "Zapytanie: kartony klapowe" },
+  "sampleMail": "Dzień dobry,\npiszę w imieniu firmy Zielony Ogród Hurt sp. z o.o. (NIP 894-123-45-67). Szukamy dostawcy kartonów wysyłkowych 40×30×20 cm — ok. 12 000 szt. miesięcznie, start od lutego. Obecnie płacimy ok. 1,85 zł/szt. i chcemy zejść poniżej 1,70 zł.\nProszę o kontakt: Tomasz Wiśniewski, kierownik zakupów, tel. 512 345 678, t.wisniewski@firma-przyklad.pl.\nPozdrawiam,\nTomasz Wiśniewski",
+  "sampleModel": "Dzień dobry,\npiszę w imieniu firmy [KLIENT] (NIP [NIP]). Szukamy dostawcy kartonów wysyłkowych 40×30×20 cm — ok. 12 000 szt. miesięcznie, start od lutego. Obecnie płacimy ok. [KWOTA]/szt. i chcemy zejść poniżej [KWOTA].\nProszę o kontakt: [OSOBA], kierownik zakupów, tel. [TELEFON], [MAIL].\nPozdrawiam,\n[OSOBA]",
+  "knownPii": ["Wiśniewski", "Zielony Ogród", "Kowalska", "Kowalski Meble", "1,85", "1,70"],
+  "files": [
+    { "path": "files/L1-2/L1-2_Zanim_wkleisz_checklista.pdf", "title": "Zanim wkleisz", "sub": "Checklista A4 · do druku, przy klawiaturze" },
+    { "path": "files/L1-2/L1-2_Ustawienia_prywatnosci_instrukcja.pdf", "title": "Ustawienia prywatności", "sub": "Claude i ChatGPT · web i telefon" }
+  ],
+  "quizText": {
+    "microEnd": "Jednorazowo: incognito. Klucz API: bez trenowania, ale znaczniki zostają.",
+    "finalPass": "Masz {s} z {n}. Przełącznik wyłączony, znaczniki w ręku: od następnej lekcji każde zadanie zaczynasz bezpiecznie.",
+    "finalFail": "{s} z {n}. Wróć do bloku 8 (co zostaje, co zamieniasz) i spróbuj jeszcze raz. Pytania pojawią się w innej kolejności.",
+    "finalBadge": "Dane pod kontrolą"
+  },
+  "micro": [
+    { "q": "Dostajesz od klienta długą, nieprzyjemną wiadomość i chcesz jednorazowo poprosić sztuczną inteligencję o chłodną analizę. Nie chcesz, żeby ta rozmowa została w Twojej historii czatów. Co robisz?", "ok": 1, "a": [
+      ["Wklejam normalnie — trenowanie mam wyłączone, więc nie ma problemu", "Kusi, bo przełącznik rzeczywiście załatwia trenowanie. Ale nie załatwia historii — rozmowa zostaje na Twoim koncie — i nie zwalnia ze znaczników. Wróć do bloku 3."],
+      ["Otwieram czat incognito (w ChatGPT: tymczasowy) i wklejam wersję ze znacznikami", "Tak. Incognito lub czat tymczasowy to brak historii i brak trenowania, a znaczniki chronią treść, która i tak idzie na serwer. Dwie ochrony razem."],
+      ["Zakładam drugie konto na prywatny mail i tam wklejam", "Gorzej, nie lepiej: nowe konto ma domyślnie włączone trenowanie, a dane klienta lądują w dwóch miejscach."],
+      ["Opisuję sytuację własnymi słowami, bez wklejania czegokolwiek", "Bezpieczne, ale tracisz to, po co idziesz do narzędzia — treść. Incognito plus znaczniki daje to samo bezpieczeństwo bez tej straty."]] },
+    { "q": "Kolega z zespołu mówi: „W n8n z kluczem API też musisz wyłączyć trenowanie, tak jak w czacie”. Co jest prawdą?", "ok": 1, "a": [
+      ["Tak — przełącznik jest w ustawieniach konta API", "Takiego przełącznika nie ma, bo nie jest potrzebny: w API brak trenowania wynika z umowy."],
+      ["Klucz API działa na warunkach komercyjnych, w których dostawca domyślnie nie trenuje na Twoich danych; zasada „co wklejasz” obowiązuje tak samo", "Tak. Zmienia się umowa (komercyjna zamiast konsumenckiej), nie zmienia się Twoja odpowiedzialność za to, co wysyłasz. Znaczniki i strefa „nigdy” obowiązują w każdym trybie."],
+      ["API trenuje zawsze, bo płacisz za użycie, nie za prywatność", "Odwrotnie: to właśnie konta płatne za użycie (API, firmowe) mają w warunkach brak trenowania."],
+      ["To nie ma znaczenia, bo n8n nie wysyła treści do modelu", "n8n wysyła do modelu dokładnie to, co mu podasz w węźle: treść maila, transkrypt, wiersz z arkusza. Dlatego w module 8 przy każdym flow wraca pytanie o znaczniki."]] }
+  ],
+  "final": [
+    { "q": "Mail od klienta: „Dzień dobry, Anna Kowalska z Kowalski Meble, tel. 601 234 567. Prosimy o ofertę na 5000 kartonów klapowych do końca kwartału, budżet ok. 40 tys. zł.” Chcesz poprosić o pomysł na odpowiedź. Co zamieniasz, zanim wkleisz?", "ok": 2, "a": [
+      ["Nic — to zwykłe zapytanie handlowe, bez danych wrażliwych", "Imię i nazwisko plus telefon to dane osobowe, a budżet to informacja handlowa klienta. Wróć do bloku 8."],
+      ["Tylko numer telefonu; nazwisko i firma to dane biznesowe", "Imię i nazwisko osoby kontaktowej to dane osobowe, nawet gdy pisze z firmy. Nazwa małej firmy często wskazuje konkretną osobę."],
+      ["Nazwisko, firmę, telefon i kwotę na [OSOBA], [KLIENT], [TELEFON], [KWOTA]; „5000 kartonów do końca kwartału” zostaje", "Tak. Zamieniasz to, co identyfikuje i wycenia, zostawiasz to, co opisuje potrzebę. Bez niej odpowiedź będzie ogólna."],
+      ["Wszystko — streszczam zapytanie jednym zdaniem bez szczegółów", "Bezpieczne, ale streszczenie bez „5000 kartonów” i terminu da Ci ogólnik. Znaczniki pozwalają zostawić treść."]] },
+    { "q": "Wyłączyłeś trenowanie w Claude na laptopie. Rano pracujesz z telefonu. Co z ustawieniem?", "ok": 1, "a": [
+      ["Muszę wyłączyć osobno na każdym urządzeniu", "Nie. Przełącznik dotyczy konta, nie urządzenia. Zmiana w jednym miejscu wystarcza."],
+      ["Ustawienie jest przypisane do konta — obowiązuje na laptopie i w telefonie", "Tak. Tak samo w ChatGPT: ustawienie obowiązuje na całym koncie, w przeglądarce i w aplikacji."],
+      ["W aplikacji mobilnej nie da się tego wyłączyć", "Da się: Ustawienia → Prywatność w aplikacji Claude, Data controls w aplikacji ChatGPT."],
+      ["W telefonie każdy czat jest domyślnie incognito", "Nie. Incognito włączasz świadomie przy nowym czacie; domyślny czat w telefonie to zwykły czat."]] },
+    { "q": "Sztuczna inteligencja napisała Ci odpowiedź do klienta na podstawie maila ze znacznikami. Co dalej?", "ok": 0, "a": [
+      ["Kopiuję, wstawiam prawdziwe dane w miejsce znaczników, czytam całość i wysyłam sam", "Tak. Zasada z lekcji 1.1: narzędzie przygotowuje, Ty wysyłasz. Prawdziwe dane wracają dopiero na Twoim ekranie, nigdy w czacie."],
+      ["Proszę narzędzie, żeby wysłało maila, skoro ma już treść", "Nic nie wychodzi do klienta automatycznie — to zasada całego kursu. Poza tym narzędzie nie zna prawdziwych danych, bo właśnie je zamieniłeś."],
+      ["Wysyłam bez czytania — w tekście nie ma danych, więc nic nie zdradzi", "Brak danych w tekście nie oznacza, że treść jest dobra. Ton, obietnice i liczby sprawdzasz Ty."],
+      ["Odrzucam, bo klient pozna, że pisała sztuczna inteligencja", "Klient pozna sztuczny tekst wtedy, gdy nie przejdzie przez Ciebie. W 1.4 dodasz Profil handlowca i tekst zacznie brzmieć jak Ty."]] },
+    { "q": "Nowa osoba w zespole pyta: „Po co wyłączać trenowanie, skoro i tak nie wklejamy nazwisk?” Co odpowiadasz?", "ok": 1, "a": [
+      ["Nie trzeba — znaczniki wystarczą", "Znaczniki chronią osoby i klienta. Nie chronią Twojej oferty, cennika i sposobu pracy, które też są w rozmowie."],
+      ["Bo do trenowania trafia cała rozmowa: nasza oferta, ceny, sposób pracy, a nie tylko dane osobowe", "Tak. Przełącznik chroni to, co jest Twoje (firma, ceny, metoda), znaczniki chronią to, co cudze (osoby, klient). Dlatego obie ochrony razem."],
+      ["Bo z włączonym trenowaniem model odpowiada gorzej", "Jakość odpowiedzi nie zależy od tego ustawienia."],
+      ["Bo RODO wprost nakazuje wyłączyć trenowanie", "RODO nie zawiera takiego nakazu. Wyłączenie trenowania to decyzja o ochronie informacji firmy. O RODO i AI Act mówimy w lekcji 1.7."]] }
+  ]
+}
